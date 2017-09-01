@@ -171,6 +171,13 @@ export const baseBuildCommandOptions: any = [
     aliases: ['nc'],
     description: 'Use file name for lazy loaded chunks.',
     default: buildConfigDefaults['namedChunks']
+  },
+  {
+    name: 'type-checking',
+    type: Boolean,
+    aliases: ['tc'],
+    default: true,
+    description: 'Enable/disable typechecking'
   }
 ];
 

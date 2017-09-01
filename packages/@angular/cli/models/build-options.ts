@@ -24,4 +24,5 @@ export interface BuildOptions {
   showCircularDependencies?: boolean;
   buildOptimizer?: boolean;
   namedChunks?: boolean;
+  typeChecking?: boolean;
 }
